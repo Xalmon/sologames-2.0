@@ -1,0 +1,9 @@
+.btn{
+    border: none;
+    background: #ffffff;
+    color: #0065FE;
+    font-family: Gilroy-SemiBold, serif;
+    font-size: 16px;
+    padding: 15px 24px;
+    font-weight: 500;
+}

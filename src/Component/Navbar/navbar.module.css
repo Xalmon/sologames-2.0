@@ -1,0 +1,60 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* gap: 15%; */
+    align-items: center;
+    background: linear-gradient(to left, grey, pink);
+    position: sticky;
+    height: 120px;
+  top: 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo p {
+    color: black; 
+    background-color: white;
+    display: inline-block;
+    padding: 1px 2px;
+    border: 2px solid black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo p span {
+    color: white; 
+    background-color: black; 
+}
+
+.logo {
+    text-align: center;
+  }
+  
+.logo p:first-child {
+    font-weight: bold; 
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-around;
+
+    > p {
+        cursor: pointer;
+    }
+}
+
+.btnDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
